@@ -1,0 +1,140 @@
+10
+
+dir
+2067
+http://ifpsvn/R11/Coores/proto/AUTODIFF/TESTAD/Eigen/Eigen/src
+http://ifpsvn/R11/Coores
+
+
+
+2015-03-02T18:44:42.377418Z
+2065
+michela
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+354b2eac-02e3-4c69-997b-ec7ef4a7d6ed
+
+LU
+dir
+
+Householder
+dir
+
+Cholesky
+dir
+
+plugins
+dir
+
+QR
+dir
+
+CholmodSupport
+dir
+
+SPQRSupport
+dir
+
+UmfPackSupport
+dir
+
+Jacobi
+dir
+
+Core
+dir
+
+Geometry
+dir
+
+misc
+dir
+
+SVD
+dir
+
+SuperLUSupport
+dir
+
+OrderingMethods
+dir
+
+PardisoSupport
+dir
+
+SparseLU
+dir
+
+SparseCholesky
+dir
+
+StlSupport
+dir
+
+SparseQR
+dir
+
+PaStiXSupport
+dir
+
+IterativeLinearSolvers
+dir
+
+Eigen2Support
+dir
+
+SparseCore
+dir
+
+Eigenvalues
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2015-03-06T20:15:31.000000Z
+2ebef3f13165f24e7bc3f09b782f73b2
+2015-03-02T18:44:42.377418Z
+2065
+michela
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+308
+
+MetisSupport
+dir
+

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/scripts
+END
+relicense.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/scripts/relicense.py
+END
+check.in
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/scripts/check.in
+END
+cdashtesting.cmake.in
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/scripts/cdashtesting.cmake.in
+END
+release.in
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/scripts/release.in
+END
+buildtests.in
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/scripts/buildtests.in
+END
+eigen_gen_docs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/scripts/eigen_gen_docs
+END
+debug.in
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/scripts/debug.in
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/scripts/CMakeLists.txt
+END
+eigen_gen_credits.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/scripts/eigen_gen_credits.cpp
+END

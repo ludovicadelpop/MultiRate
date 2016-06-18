@@ -1,0 +1,56 @@
+\hypertarget{classCubicHermiteInterpolationSolver}{
+\section{CubicHermiteInterpolationSolver Class Reference}
+\label{classCubicHermiteInterpolationSolver}\index{CubicHermiteInterpolationSolver@{CubicHermiteInterpolationSolver}}
+}
+
+
+Interpolator for the components that are not active.  
+
+
+{\ttfamily \#include $<$CubicHermiteInterpolationSolver.h$>$}\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classCubicHermiteInterpolationSolver_ac82c752ef418ef7ceb0172f645e01543}{compute} (Real t1, Real t2, Real gm)
+\begin{DoxyCompactList}\small\item\em Compute method. \item\end{DoxyCompactList}\item 
+\hypertarget{classCubicHermiteInterpolationSolver_a097971cdb4dfeba37b2a17749e2a3d92}{
+void {\bfseries setInput} (const \hyperlink{classCubicHermiteInterpolationInputSolver}{CubicHermiteInterpolationInputSolver} \&input)}
+\label{classCubicHermiteInterpolationSolver_a097971cdb4dfeba37b2a17749e2a3d92}
+
+\item 
+\hypertarget{classCubicHermiteInterpolationSolver_a2631d060d246495ecdfd9d2697e397af}{
+const \hyperlink{classCubicHermiteInterpolationOutputSolver}{CubicHermiteInterpolationOutputSolver} \& {\bfseries getOutput} () const }
+\label{classCubicHermiteInterpolationSolver_a2631d060d246495ecdfd9d2697e397af}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classCubicHermiteInterpolationSolver_ae17c7cdd5d2ae63b2c1b43b5243e36e7}{
+\hyperlink{classCubicHermiteInterpolationInputSolver}{CubicHermiteInterpolationInputSolver} {\bfseries input}}
+\label{classCubicHermiteInterpolationSolver_ae17c7cdd5d2ae63b2c1b43b5243e36e7}
+
+\item 
+\hypertarget{classCubicHermiteInterpolationSolver_a09da14c9cf6fcaccb195f376237b3590}{
+\hyperlink{classCubicHermiteInterpolationOutputSolver}{CubicHermiteInterpolationOutputSolver} {\bfseries output}}
+\label{classCubicHermiteInterpolationSolver_a09da14c9cf6fcaccb195f376237b3590}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Interpolator for the components that are not active. We use a Cubic Hermite Interpolator for the TRBDF2 Multirate method. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classCubicHermiteInterpolationSolver_ac82c752ef418ef7ceb0172f645e01543}{
+\index{CubicHermiteInterpolationSolver@{CubicHermiteInterpolationSolver}!compute@{compute}}
+\index{compute@{compute}!CubicHermiteInterpolationSolver@{CubicHermiteInterpolationSolver}}
+\subsubsection[{compute}]{\setlength{\rightskip}{0pt plus 5cm}void CubicHermiteInterpolationSolver::compute (Real {\em t1}, \/  Real {\em t2}, \/  Real {\em gm})}}
+\label{classCubicHermiteInterpolationSolver_ac82c752ef418ef7ceb0172f645e01543}
+
+
+Compute method. As input is required the time t1 and t2 to do interpolation (TRBDF2 is a two step method) and the coefficient gamma In the input class we need the solution at a previous and next time where we want to do the interpolation We store the solution in the output class 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+CubicHermiteInterpolationSolver/CubicHermiteInterpolationSolver.h\item 
+CubicHermiteInterpolationSolver/CubicHermiteInterpolationSolver.cpp\end{DoxyCompactItemize}

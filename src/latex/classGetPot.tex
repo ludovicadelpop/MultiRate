@@ -1,0 +1,422 @@
+\hypertarget{classGetPot}{
+\section{GetPot Class Reference}
+\label{classGetPot}\index{GetPot@{GetPot}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct {\bfseries variable}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classGetPot_ac36175020c34fa0b29dcadda76f6926e}{
+{\bfseries GetPot} (const \hyperlink{classGetPot}{GetPot} \&)}
+\label{classGetPot_ac36175020c34fa0b29dcadda76f6926e}
+
+\item 
+\hypertarget{classGetPot_a75bfaf47037a4794d02a7b48befa3ecf}{
+{\bfseries GetPot} (const int argc\_\-, char $\ast$$\ast$argv\_\-, const char $\ast$FieldSeparator=0x0)}
+\label{classGetPot_a75bfaf47037a4794d02a7b48befa3ecf}
+
+\item 
+\hypertarget{classGetPot_a076ce92a05d0dfe45e1982102d6b4526}{
+{\bfseries GetPot} (const char $\ast$FileName, const char $\ast$CommentStart=0x0, const char $\ast$CommentEnd=0x0, const char $\ast$FieldSeparator=0x0)}
+\label{classGetPot_a076ce92a05d0dfe45e1982102d6b4526}
+
+\item 
+\hypertarget{classGetPot_ac55964791c1b7ac69c8c955022539873}{
+{\footnotesize template$<$typename STRING $>$ }\\{\bfseries GetPot} (const STRING \&FileName, const char $\ast$CommentStart=0x0, const char $\ast$CommentEnd=0x0, const char $\ast$FieldSeparator=0x0)}
+\label{classGetPot_ac55964791c1b7ac69c8c955022539873}
+
+\item 
+\hypertarget{classGetPot_a92c9fa06ffb4b578cdbb6e9200d27249}{
+\hyperlink{classGetPot}{GetPot} \& {\bfseries operator=} (const \hyperlink{classGetPot}{GetPot} \&)}
+\label{classGetPot_a92c9fa06ffb4b578cdbb6e9200d27249}
+
+\item 
+\hypertarget{classGetPot_a22bb4a0e853fb40b19293f5604341a6c}{
+{\bfseries GetPot} (const STRING\_\-VECTOR \&FileNameList)}
+\label{classGetPot_a22bb4a0e853fb40b19293f5604341a6c}
+
+\item 
+\hypertarget{classGetPot_a57b2855086d47efa2e32cb626d1d21c9}{
+void {\bfseries absorb} (const \hyperlink{classGetPot}{GetPot} \&That)}
+\label{classGetPot_a57b2855086d47efa2e32cb626d1d21c9}
+
+\item 
+\hypertarget{classGetPot_acb2c8d28c7483627cc6875bf149cf8aa}{
+void {\bfseries clear\_\-requests} ()}
+\label{classGetPot_acb2c8d28c7483627cc6875bf149cf8aa}
+
+\item 
+\hypertarget{classGetPot_afdadd023da7b4d13ab41e15845e6bec0}{
+void {\bfseries disable\_\-request\_\-recording} ()}
+\label{classGetPot_afdadd023da7b4d13ab41e15845e6bec0}
+
+\item 
+\hypertarget{classGetPot_a5163b19865018750f4f3452744da2cd8}{
+void {\bfseries enable\_\-request\_\-recording} ()}
+\label{classGetPot_a5163b19865018750f4f3452744da2cd8}
+
+\item 
+\hypertarget{classGetPot_a4fdfa726da0722a03d9bb2fed4aab47a}{
+const std::string {\bfseries operator\mbox{[}$\,$\mbox{]}} (unsigned Idx) const }
+\label{classGetPot_a4fdfa726da0722a03d9bb2fed4aab47a}
+
+\item 
+\hypertarget{classGetPot_a1c017e282a0074f949ea4b6aa7bae6b6}{
+int {\bfseries get} (unsigned Idx, int Default) const }
+\label{classGetPot_a1c017e282a0074f949ea4b6aa7bae6b6}
+
+\item 
+\hypertarget{classGetPot_abb786eaf8984494fa8043cbd4a952407}{
+double {\bfseries get} (unsigned Idx, const double \&Default) const }
+\label{classGetPot_abb786eaf8984494fa8043cbd4a952407}
+
+\item 
+\hypertarget{classGetPot_a432360a5cb32d189e3364c09d41306ca}{
+const std::string {\bfseries get} (unsigned Idx, const char $\ast$Default) const }
+\label{classGetPot_a432360a5cb32d189e3364c09d41306ca}
+
+\item 
+\hypertarget{classGetPot_a2d932ac1adaa8c96cd7d6a9379bee729}{
+unsigned {\bfseries size} () const }
+\label{classGetPot_a2d932ac1adaa8c96cd7d6a9379bee729}
+
+\item 
+\hypertarget{classGetPot_ae0ca20c8e8ddd2908d8d47e0a2d0569b}{
+bool {\bfseries options\_\-contain} (const char $\ast$FlagList) const }
+\label{classGetPot_ae0ca20c8e8ddd2908d8d47e0a2d0569b}
+
+\item 
+\hypertarget{classGetPot_a30b6999f373de76e53eb702667b0b09f}{
+bool {\bfseries argument\_\-contains} (unsigned Idx, const char $\ast$FlagList) const }
+\label{classGetPot_a30b6999f373de76e53eb702667b0b09f}
+
+\item 
+\hypertarget{classGetPot_ae8ef969f90efc0b45d53265c45b4ae4d}{
+bool {\bfseries operator()} (const char $\ast$VarName, bool Default) const }
+\label{classGetPot_ae8ef969f90efc0b45d53265c45b4ae4d}
+
+\item 
+\hypertarget{classGetPot_a97a8b10f961e4401ef6f6db3b4642c78}{
+int {\bfseries operator()} (const char $\ast$VarName, int Default) const }
+\label{classGetPot_a97a8b10f961e4401ef6f6db3b4642c78}
+
+\item 
+\hypertarget{classGetPot_a9064c182ca259bead82b93d3083eb9ab}{
+double {\bfseries operator()} (const char $\ast$VarName, const double \&Default) const }
+\label{classGetPot_a9064c182ca259bead82b93d3083eb9ab}
+
+\item 
+\hypertarget{classGetPot_adc0c5a1666bce6eac40d24f444801d68}{
+const std::string {\bfseries operator()} (const char $\ast$VarName, const char $\ast$Default) const }
+\label{classGetPot_adc0c5a1666bce6eac40d24f444801d68}
+
+\item 
+\hypertarget{classGetPot_af87d43a0947c7464416434787821b59a}{
+bool {\bfseries operator()} (const char $\ast$VarName, bool Default, bool \&found) const }
+\label{classGetPot_af87d43a0947c7464416434787821b59a}
+
+\item 
+\hypertarget{classGetPot_a63be4fe6c4bb9fa1a08f1b36c9c60ffe}{
+int {\bfseries operator()} (const char $\ast$VarName, int Default, bool \&found) const }
+\label{classGetPot_a63be4fe6c4bb9fa1a08f1b36c9c60ffe}
+
+\item 
+\hypertarget{classGetPot_a526e6534609b0157a57959923f51fe93}{
+double {\bfseries operator()} (const char $\ast$VarName, const double \&Default, bool \&found) const }
+\label{classGetPot_a526e6534609b0157a57959923f51fe93}
+
+\item 
+\hypertarget{classGetPot_a7e54e5aa5777277a5bea8fdec05d6590}{
+const std::string {\bfseries operator()} (const char $\ast$VarName, const char $\ast$Default, bool \&found) const }
+\label{classGetPot_a7e54e5aa5777277a5bea8fdec05d6590}
+
+\item 
+\hypertarget{classGetPot_a17489588d77437b4e8b6d6b002a8898d}{
+bool {\bfseries operator()} (const char $\ast$VarName, bool Default, unsigned Idx) const }
+\label{classGetPot_a17489588d77437b4e8b6d6b002a8898d}
+
+\item 
+\hypertarget{classGetPot_a403ee188f1ba0447569cd982cb9dcc44}{
+int {\bfseries operator()} (const char $\ast$VarName, int Default, unsigned Idx) const }
+\label{classGetPot_a403ee188f1ba0447569cd982cb9dcc44}
+
+\item 
+\hypertarget{classGetPot_aa269bc0f2f7b3ea56b56aec8054d2f98}{
+double {\bfseries operator()} (const char $\ast$VarName, const double \&Default, unsigned Idx) const }
+\label{classGetPot_aa269bc0f2f7b3ea56b56aec8054d2f98}
+
+\item 
+\hypertarget{classGetPot_ad7781191cffcf56db83267ed29eb2204}{
+const std::string {\bfseries operator()} (const char $\ast$VarName, const char $\ast$Default, unsigned Idx) const }
+\label{classGetPot_ad7781191cffcf56db83267ed29eb2204}
+
+\item 
+\hypertarget{classGetPot_a389eb9b67c5ff84394c648932b1d717f}{
+void {\bfseries set} (const char $\ast$VarName, const char $\ast$Value, const bool Requested=true)}
+\label{classGetPot_a389eb9b67c5ff84394c648932b1d717f}
+
+\item 
+\hypertarget{classGetPot_a9d9386ce9c4538015b0c8b6e8fda52ee}{
+void {\bfseries set} (const char $\ast$VarName, const double \&Value, const bool Requested=true)}
+\label{classGetPot_a9d9386ce9c4538015b0c8b6e8fda52ee}
+
+\item 
+\hypertarget{classGetPot_a6f5c03e5370a9f4ea7216fdfcec576b1}{
+void {\bfseries set} (const char $\ast$VarName, const int Value, const bool Requested=true)}
+\label{classGetPot_a6f5c03e5370a9f4ea7216fdfcec576b1}
+
+\item 
+\hypertarget{classGetPot_acebb6f432d3749c950ae732eb9fa7b21}{
+bool {\bfseries checkVariable} (const char $\ast$VarName) const }
+\label{classGetPot_acebb6f432d3749c950ae732eb9fa7b21}
+
+\item 
+\hypertarget{classGetPot_ac58129dc7b1cccfa45a7175f33c8d6c3}{
+unsigned {\bfseries vector\_\-variable\_\-size} (const char $\ast$VarName) const }
+\label{classGetPot_ac58129dc7b1cccfa45a7175f33c8d6c3}
+
+\item 
+\hypertarget{classGetPot_a811c7b5230512718ec8f82de6662f28f}{
+STRING\_\-VECTOR {\bfseries get\_\-variable\_\-names} () const }
+\label{classGetPot_a811c7b5230512718ec8f82de6662f28f}
+
+\item 
+\hypertarget{classGetPot_a2dfc532c29426f5010cc07f2f07a5ea3}{
+STRING\_\-VECTOR {\bfseries get\_\-section\_\-names} () const }
+\label{classGetPot_a2dfc532c29426f5010cc07f2f07a5ea3}
+
+\item 
+\hypertarget{classGetPot_a19e24ca540e9e72ea3a8a8780d950a22}{
+void {\bfseries set\_\-prefix} (const char $\ast$Prefix)}
+\label{classGetPot_a19e24ca540e9e72ea3a8a8780d950a22}
+
+\item 
+\hypertarget{classGetPot_a5d6af0d1618f40cb9d0acaba79931014}{
+bool {\bfseries search\_\-failed} () const }
+\label{classGetPot_a5d6af0d1618f40cb9d0acaba79931014}
+
+\item 
+\hypertarget{classGetPot_a84b0e0199ae3df63c01ea125a16be83f}{
+void {\bfseries disable\_\-loop} ()}
+\label{classGetPot_a84b0e0199ae3df63c01ea125a16be83f}
+
+\item 
+\hypertarget{classGetPot_a99f8e9cc6ff54d0abf4ef090cd39d8a7}{
+void {\bfseries enable\_\-loop} ()}
+\label{classGetPot_a99f8e9cc6ff54d0abf4ef090cd39d8a7}
+
+\item 
+\hypertarget{classGetPot_ad55107a9bd39804599844194218e8e3a}{
+void {\bfseries reset\_\-cursor} ()}
+\label{classGetPot_ad55107a9bd39804599844194218e8e3a}
+
+\item 
+\hypertarget{classGetPot_af8d29a623cd9a37d9f133c66b712efc5}{
+void {\bfseries init\_\-multiple\_\-occurrence} ()}
+\label{classGetPot_af8d29a623cd9a37d9f133c66b712efc5}
+
+\item 
+\hypertarget{classGetPot_a183e68216495d2afe4fb1d3a6363718d}{
+bool {\bfseries search} (const char $\ast$option)}
+\label{classGetPot_a183e68216495d2afe4fb1d3a6363718d}
+
+\item 
+\hypertarget{classGetPot_aba4993d981a043ea377eed1588f6da98}{
+bool {\bfseries search} (unsigned No, const char $\ast$P,...)}
+\label{classGetPot_aba4993d981a043ea377eed1588f6da98}
+
+\item 
+\hypertarget{classGetPot_ab198c8915bf041f409d021d947a63c8d}{
+int {\bfseries next} (int Default)}
+\label{classGetPot_ab198c8915bf041f409d021d947a63c8d}
+
+\item 
+\hypertarget{classGetPot_a0c492a6a937df46a8bf7107c8960743b}{
+double {\bfseries next} (const double \&Default)}
+\label{classGetPot_a0c492a6a937df46a8bf7107c8960743b}
+
+\item 
+\hypertarget{classGetPot_a295a0e34f2553a5ac76ace0adcfa023f}{
+const std::string {\bfseries next} (const char $\ast$Default)}
+\label{classGetPot_a295a0e34f2553a5ac76ace0adcfa023f}
+
+\item 
+\hypertarget{classGetPot_aaa1c2b835b2599c5c087d2d4f82e368b}{
+int {\bfseries follow} (int Default, const char $\ast$Option)}
+\label{classGetPot_aaa1c2b835b2599c5c087d2d4f82e368b}
+
+\item 
+\hypertarget{classGetPot_a855b9098faff198692edae7741573065}{
+double {\bfseries follow} (const double \&Default, const char $\ast$Option)}
+\label{classGetPot_a855b9098faff198692edae7741573065}
+
+\item 
+\hypertarget{classGetPot_a091faf970647b60ffdbc74a27160e6b1}{
+const std::string {\bfseries follow} (const char $\ast$Default, const char $\ast$Option)}
+\label{classGetPot_a091faf970647b60ffdbc74a27160e6b1}
+
+\item 
+\hypertarget{classGetPot_a55bfc61743e387853e6939e7fa70b5ee}{
+int {\bfseries follow} (int Default, unsigned No, const char $\ast$Option,...)}
+\label{classGetPot_a55bfc61743e387853e6939e7fa70b5ee}
+
+\item 
+\hypertarget{classGetPot_af8f391bb9b55d0fd01ce1e74282d2cdf}{
+double {\bfseries follow} (const double \&Default, unsigned No, const char $\ast$Option,...)}
+\label{classGetPot_af8f391bb9b55d0fd01ce1e74282d2cdf}
+
+\item 
+\hypertarget{classGetPot_ad32ef7ad9fdcd024f250da838197d7a8}{
+const std::string {\bfseries follow} (const char $\ast$Default, unsigned No, const char $\ast$Option,...)}
+\label{classGetPot_ad32ef7ad9fdcd024f250da838197d7a8}
+
+\item 
+\hypertarget{classGetPot_ad86cc5f063845dd24f0aa9e8500317b1}{
+std::vector$<$ std::string $>$ {\bfseries nominus\_\-followers} (const char $\ast$Option)}
+\label{classGetPot_ad86cc5f063845dd24f0aa9e8500317b1}
+
+\item 
+\hypertarget{classGetPot_a3c0bc7200bc2558217039050b9087d97}{
+std::vector$<$ std::string $>$ {\bfseries nominus\_\-followers} (unsigned No,...)}
+\label{classGetPot_a3c0bc7200bc2558217039050b9087d97}
+
+\item 
+\hypertarget{classGetPot_a2eec5ed54d86646402e5e16485601fea}{
+int {\bfseries direct\_\-follow} (int Default, const char $\ast$Option)}
+\label{classGetPot_a2eec5ed54d86646402e5e16485601fea}
+
+\item 
+\hypertarget{classGetPot_ad64bcf7d37c78bae36ad97aaac92a86b}{
+double {\bfseries direct\_\-follow} (const double \&Default, const char $\ast$Option)}
+\label{classGetPot_ad64bcf7d37c78bae36ad97aaac92a86b}
+
+\item 
+\hypertarget{classGetPot_aca40e39c14f630802931cac3c2aeb524}{
+const std::string {\bfseries direct\_\-follow} (const char $\ast$Default, const char $\ast$Option)}
+\label{classGetPot_aca40e39c14f630802931cac3c2aeb524}
+
+\item 
+\hypertarget{classGetPot_a2f79e3c21adc9568a507eb91ce15e4d0}{
+std::vector$<$ std::string $>$ {\bfseries string\_\-tails} (const char $\ast$StartString)}
+\label{classGetPot_a2f79e3c21adc9568a507eb91ce15e4d0}
+
+\item 
+\hypertarget{classGetPot_a269879b326c9388c7145bad57ca5fcb1}{
+std::vector$<$ int $>$ {\bfseries int\_\-tails} (const char $\ast$StartString, const int Default=1)}
+\label{classGetPot_a269879b326c9388c7145bad57ca5fcb1}
+
+\item 
+\hypertarget{classGetPot_aa50b6e2ea274355c930a608079a88a1f}{
+std::vector$<$ double $>$ {\bfseries double\_\-tails} (const char $\ast$StartString, const double Default=1.0)}
+\label{classGetPot_aa50b6e2ea274355c930a608079a88a1f}
+
+\item 
+\hypertarget{classGetPot_a2bb3ce06e8d8d1875722480254e8fc56}{
+STRING\_\-VECTOR {\bfseries nominus\_\-vector} () const }
+\label{classGetPot_a2bb3ce06e8d8d1875722480254e8fc56}
+
+\item 
+\hypertarget{classGetPot_ab696e5463b8a7e1e5cbab563e406db60}{
+unsigned {\bfseries nominus\_\-size} () const }
+\label{classGetPot_ab696e5463b8a7e1e5cbab563e406db60}
+
+\item 
+\hypertarget{classGetPot_a99f571a68efe22003f5162e739c7b801}{
+std::string {\bfseries next\_\-nominus} ()}
+\label{classGetPot_a99f571a68efe22003f5162e739c7b801}
+
+\item 
+\hypertarget{classGetPot_aa5c283ed5ae3f40341df871c5cdf6588}{
+STRING\_\-VECTOR {\bfseries unidentified\_\-arguments} (unsigned Number, const char $\ast$Known,...) const }
+\label{classGetPot_aa5c283ed5ae3f40341df871c5cdf6588}
+
+\item 
+\hypertarget{classGetPot_a08a1a9ab9ae443888718cacf10afd06d}{
+STRING\_\-VECTOR {\bfseries unidentified\_\-arguments} (const STRING\_\-VECTOR \&Knowns) const }
+\label{classGetPot_a08a1a9ab9ae443888718cacf10afd06d}
+
+\item 
+\hypertarget{classGetPot_a88e7f9c789b8bea223127dbfecea5041}{
+STRING\_\-VECTOR {\bfseries unidentified\_\-arguments} () const }
+\label{classGetPot_a88e7f9c789b8bea223127dbfecea5041}
+
+\item 
+\hypertarget{classGetPot_ac11b52993315a910ad7ee9fd5729605a}{
+STRING\_\-VECTOR {\bfseries unidentified\_\-options} (unsigned Number, const char $\ast$Known,...) const }
+\label{classGetPot_ac11b52993315a910ad7ee9fd5729605a}
+
+\item 
+\hypertarget{classGetPot_a70b0e051abb2af10b5bef708db80f774}{
+STRING\_\-VECTOR {\bfseries unidentified\_\-options} (const STRING\_\-VECTOR \&Knowns) const }
+\label{classGetPot_a70b0e051abb2af10b5bef708db80f774}
+
+\item 
+\hypertarget{classGetPot_a7a51d05e04dfdba0788c6f399120b35a}{
+STRING\_\-VECTOR {\bfseries unidentified\_\-options} () const }
+\label{classGetPot_a7a51d05e04dfdba0788c6f399120b35a}
+
+\item 
+\hypertarget{classGetPot_a3b4c3f3128a38c2a24c977f9c5371c1a}{
+std::string {\bfseries unidentified\_\-flags} (const char $\ast$Known, int ArgumentNumber) const }
+\label{classGetPot_a3b4c3f3128a38c2a24c977f9c5371c1a}
+
+\item 
+\hypertarget{classGetPot_a534677efd6bf66f2b7bbb03e2f588a7f}{
+STRING\_\-VECTOR {\bfseries unidentified\_\-variables} (unsigned Number, const char $\ast$Known,...) const }
+\label{classGetPot_a534677efd6bf66f2b7bbb03e2f588a7f}
+
+\item 
+\hypertarget{classGetPot_a5685c87e7392e8936fedcc74f811c504}{
+STRING\_\-VECTOR {\bfseries unidentified\_\-variables} (const STRING\_\-VECTOR \&Knowns) const }
+\label{classGetPot_a5685c87e7392e8936fedcc74f811c504}
+
+\item 
+\hypertarget{classGetPot_a605018ceff57881e1607608a4c978906}{
+STRING\_\-VECTOR {\bfseries unidentified\_\-variables} () const }
+\label{classGetPot_a605018ceff57881e1607608a4c978906}
+
+\item 
+\hypertarget{classGetPot_ada04daaaee674288521f6532ed3fbcf0}{
+STRING\_\-VECTOR {\bfseries unidentified\_\-sections} (unsigned Number, const char $\ast$Known,...) const }
+\label{classGetPot_ada04daaaee674288521f6532ed3fbcf0}
+
+\item 
+\hypertarget{classGetPot_a5e716f5a2db7bd7cf9ac43c1d02e16ab}{
+STRING\_\-VECTOR {\bfseries unidentified\_\-sections} (const STRING\_\-VECTOR \&Knowns) const }
+\label{classGetPot_a5e716f5a2db7bd7cf9ac43c1d02e16ab}
+
+\item 
+\hypertarget{classGetPot_ae54ef4d5f10fa3b5badf39e5dcda529b}{
+STRING\_\-VECTOR {\bfseries unidentified\_\-sections} () const }
+\label{classGetPot_ae54ef4d5f10fa3b5badf39e5dcda529b}
+
+\item 
+\hypertarget{classGetPot_a9378d42c51fe2fa8f2388c2c47744080}{
+STRING\_\-VECTOR {\bfseries unidentified\_\-nominuses} (unsigned Number, const char $\ast$Known,...) const }
+\label{classGetPot_a9378d42c51fe2fa8f2388c2c47744080}
+
+\item 
+\hypertarget{classGetPot_a72f3552844a9fd451cc981ca212bd74c}{
+STRING\_\-VECTOR {\bfseries unidentified\_\-nominuses} (const STRING\_\-VECTOR \&Knowns) const }
+\label{classGetPot_a72f3552844a9fd451cc981ca212bd74c}
+
+\item 
+\hypertarget{classGetPot_a11086beb1e3d595140617838ae16a53e}{
+STRING\_\-VECTOR {\bfseries unidentified\_\-nominuses} () const }
+\label{classGetPot_a11086beb1e3d595140617838ae16a53e}
+
+\item 
+\hypertarget{classGetPot_a50eb9af9aec818bf434da399bb3644d1}{
+int {\bfseries print} () const }
+\label{classGetPot_a50eb9af9aec818bf434da399bb3644d1}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+GetPot.hpp\end{DoxyCompactItemize}

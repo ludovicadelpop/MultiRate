@@ -1,0 +1,105 @@
+\hypertarget{classSingleRateFESolver}{
+\section{SingleRateFESolver Class Reference}
+\label{classSingleRateFESolver}\index{SingleRateFESolver@{SingleRateFESolver}}
+}
+
+
+Class to define the Singlerate Forward Euler Solver with a fixed time step.  
+
+
+{\ttfamily \#include $<$SingleRateFESolver.h$>$}Inheritance diagram for SingleRateFESolver::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classSingleRateFESolver}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classSingleRateFESolver_a5ea6db6cfefba42530555d2d5c809a08}{
+void \hyperlink{classSingleRateFESolver_a5ea6db6cfefba42530555d2d5c809a08}{setFun} (\hyperlink{classIRHSFunction}{IRHSFunction} $\ast$fun)}
+\label{classSingleRateFESolver_a5ea6db6cfefba42530555d2d5c809a08}
+
+\begin{DoxyCompactList}\small\item\em Sets the RHS Function. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateFESolver_a8db35d4c78e8ee2188bfe5d3c60f8a20}{
+void \hyperlink{classSingleRateFESolver_a8db35d4c78e8ee2188bfe5d3c60f8a20}{setNewtSolv} (std::unique\_\-ptr$<$ \hyperlink{classINewtonSolver}{INewtonSolver} $>$ newtSolv)}
+\label{classSingleRateFESolver_a8db35d4c78e8ee2188bfe5d3c60f8a20}
+
+\begin{DoxyCompactList}\small\item\em Sets the Newton SOlver. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateFESolver_a85f5c7440f89d791f2b5cf31173a591e}{
+void \hyperlink{classSingleRateFESolver_a85f5c7440f89d791f2b5cf31173a591e}{setHinitial} (Real hinitial)}
+\label{classSingleRateFESolver_a85f5c7440f89d791f2b5cf31173a591e}
+
+\begin{DoxyCompactList}\small\item\em Sets the time step for the first time slab. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateFESolver_a0347b664a5941a8d3e2f075c1b42b4bf}{
+void \hyperlink{classSingleRateFESolver_a0347b664a5941a8d3e2f075c1b42b4bf}{setHz1initial} (const RealVector \&hz1initial)}
+\label{classSingleRateFESolver_a0347b664a5941a8d3e2f075c1b42b4bf}
+
+\begin{DoxyCompactList}\small\item\em Sets the initial guess for the variable z. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateFESolver_a1f642b2a50f2ba7a95e418b012b23f1c}{
+void \hyperlink{classSingleRateFESolver_a1f642b2a50f2ba7a95e418b012b23f1c}{setTfinal} (Real tfinal)}
+\label{classSingleRateFESolver_a1f642b2a50f2ba7a95e418b012b23f1c}
+
+\begin{DoxyCompactList}\small\item\em Sets the final time. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateFESolver_a5047dc929dc5a0d68163994999f3bb09}{
+void \hyperlink{classSingleRateFESolver_a5047dc929dc5a0d68163994999f3bb09}{setTinitial} (Real tinitial)}
+\label{classSingleRateFESolver_a5047dc929dc5a0d68163994999f3bb09}
+
+\begin{DoxyCompactList}\small\item\em Sets the initial time. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateFESolver_a07bd5e02b6fcd7c29058f1ab745f2f71}{
+void \hyperlink{classSingleRateFESolver_a07bd5e02b6fcd7c29058f1ab745f2f71}{setYinitial} (const RealVector \&yinitial)}
+\label{classSingleRateFESolver_a07bd5e02b6fcd7c29058f1ab745f2f71}
+
+\begin{DoxyCompactList}\small\item\em Sets the initial condition. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateFESolver_aebb661ca33459dc1bbbecff6f40aeb0a}{
+std::vector$<$ std::unique\_\-ptr$<$ \hyperlink{classISolverData}{ISolverData} $>$ $>$ \&\& \hyperlink{classSingleRateFESolver_aebb661ca33459dc1bbbecff6f40aeb0a}{getSolution} ()}
+\label{classSingleRateFESolver_aebb661ca33459dc1bbbecff6f40aeb0a}
+
+\begin{DoxyCompactList}\small\item\em Gets the solution vector. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateFESolver_aad2d9d77e35451e6e7be6af0162b4623}{
+void \hyperlink{classSingleRateFESolver_aad2d9d77e35451e6e7be6af0162b4623}{setNewtonTolAbs} (Real newtonTolAbs)}
+\label{classSingleRateFESolver_aad2d9d77e35451e6e7be6af0162b4623}
+
+\begin{DoxyCompactList}\small\item\em Sets the absolute Newton tolerance. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateFESolver_a6b84fbec7f7dbf28ba3e42305c60a0a6}{
+void \hyperlink{classSingleRateFESolver_a6b84fbec7f7dbf28ba3e42305c60a0a6}{setNewtonTolRel} (Real newtonTolRel)}
+\label{classSingleRateFESolver_a6b84fbec7f7dbf28ba3e42305c60a0a6}
+
+\begin{DoxyCompactList}\small\item\em Sets the relative Newton tolerance. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateFESolver_ac2b98eed3ec2af8b0708953b2b957031}{
+void \hyperlink{classSingleRateFESolver_ac2b98eed3ec2af8b0708953b2b957031}{setErrorTolAbs} (Real errorTolAbs)}
+\label{classSingleRateFESolver_ac2b98eed3ec2af8b0708953b2b957031}
+
+\begin{DoxyCompactList}\small\item\em Sets the absolute Error tolerance. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateFESolver_a3f93cd51aef89e0ccbdef8b8baf267de}{
+void \hyperlink{classSingleRateFESolver_a3f93cd51aef89e0ccbdef8b8baf267de}{setErrorTolRel} (Real errorTolRel)}
+\label{classSingleRateFESolver_a3f93cd51aef89e0ccbdef8b8baf267de}
+
+\begin{DoxyCompactList}\small\item\em Sets the relative Error tolerance. \item\end{DoxyCompactList}\item 
+void \hyperlink{classSingleRateFESolver_a4beb6ba564a2df02b0c96342646b3be9}{compute} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class to define the Singlerate Forward Euler Solver with a fixed time step. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classSingleRateFESolver_a4beb6ba564a2df02b0c96342646b3be9}{
+\index{SingleRateFESolver@{SingleRateFESolver}!compute@{compute}}
+\index{compute@{compute}!SingleRateFESolver@{SingleRateFESolver}}
+\subsubsection[{compute}]{\setlength{\rightskip}{0pt plus 5cm}void SingleRateFESolver::compute ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classSingleRateFESolver_a4beb6ba564a2df02b0c96342646b3be9}
+
+
+First data output: initial conditions
+
+update solution
+
+Store new solution 
+
+Implements \hyperlink{classIMasterSolver}{IMasterSolver}.
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+SingleRateFESolver/SingleRateFESolver.h\item 
+SingleRateFESolver/SingleRateFESolver.cpp\end{DoxyCompactItemize}

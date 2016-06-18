@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/doc/examples
+END
+FFT.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/doc/examples/FFT.cpp
+END
+PolynomialSolver1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/doc/examples/PolynomialSolver1.cpp
+END
+MatrixPower.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/doc/examples/MatrixPower.cpp
+END
+MatrixSine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/doc/examples/MatrixSine.cpp
+END
+PolynomialUtils1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/doc/examples/PolynomialUtils1.cpp
+END
+MatrixPower_optimal.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/doc/examples/MatrixPower_optimal.cpp
+END
+MatrixSinh.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/doc/examples/MatrixSinh.cpp
+END
+MatrixSquareRoot.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/doc/examples/MatrixSquareRoot.cpp
+END
+BVH_Example.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/doc/examples/BVH_Example.cpp
+END
+MatrixFunction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/doc/examples/MatrixFunction.cpp
+END
+MatrixExponential.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/doc/examples/MatrixExponential.cpp
+END
+MatrixLogarithm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/doc/examples/MatrixLogarithm.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/doc/examples/CMakeLists.txt
+END

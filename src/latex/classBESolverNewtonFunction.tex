@@ -1,0 +1,57 @@
+\hypertarget{classBESolverNewtonFunction}{
+\section{BESolverNewtonFunction Class Reference}
+\label{classBESolverNewtonFunction}\index{BESolverNewtonFunction@{BESolverNewtonFunction}}
+}
+
+
+Newton Function for BE Solver.  
+
+
+{\ttfamily \#include $<$BESolverNewtonFunction.h$>$}Inheritance diagram for BESolverNewtonFunction::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classBESolverNewtonFunction}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classBESolverNewtonFunction_a4839e9f396001ec74f0ed84c60bceeea}{
+void {\bfseries setDt} (Real dt)}
+\label{classBESolverNewtonFunction_a4839e9f396001ec74f0ed84c60bceeea}
+
+\item 
+\hypertarget{classBESolverNewtonFunction_af8ac5afaee7f9150715d64864113728f}{
+void {\bfseries setFun} (\hyperlink{classIRHSFunction}{IRHSFunction} $\ast$fun)}
+\label{classBESolverNewtonFunction_af8ac5afaee7f9150715d64864113728f}
+
+\item 
+\hypertarget{classBESolverNewtonFunction_a6a0988dcce895a7da36f33adaa412a0c}{
+void {\bfseries setYn} (const RealVector \&yn)}
+\label{classBESolverNewtonFunction_a6a0988dcce895a7da36f33adaa412a0c}
+
+\item 
+\hypertarget{classBESolverNewtonFunction_a8120d01800736505481b08e47394fe84}{
+void {\bfseries setTnp} (Real tnp)}
+\label{classBESolverNewtonFunction_a8120d01800736505481b08e47394fe84}
+
+\item 
+\hypertarget{classBESolverNewtonFunction_aab571de51fc3667739191c93df8a0065}{
+void \hyperlink{classBESolverNewtonFunction_aab571de51fc3667739191c93df8a0065}{evalFJ} (RealVector \&Y, RealVector \&F, RealMatrixSparse \&J)}
+\label{classBESolverNewtonFunction_aab571de51fc3667739191c93df8a0065}
+
+\begin{DoxyCompactList}\small\item\em Returns as references the evaluate of Newton function (F) and Newton Jacobian (J) in Y. \item\end{DoxyCompactList}\item 
+\hypertarget{classBESolverNewtonFunction_a66238e6376f8ec8945a3867b3a065deb}{
+void \hyperlink{classBESolverNewtonFunction_a66238e6376f8ec8945a3867b3a065deb}{evalF} (RealVector \&Y, RealVector \&F)}
+\label{classBESolverNewtonFunction_a66238e6376f8ec8945a3867b3a065deb}
+
+\begin{DoxyCompactList}\small\item\em Returns as reference the evaluate of Newton function (F) in Y. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Newton Function for BE Solver. $ F(y) = y - y_{n} - dt*(f_{RHS}(t_{n+1},y)) $ 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+BESolverNewtonFunction/BESolverNewtonFunction.h\item 
+BESolverNewtonFunction/BESolverNewtonFunction.cpp\end{DoxyCompactItemize}

@@ -1,0 +1,117 @@
+\hypertarget{classMultiRateTRBDF2Solver}{
+\section{MultiRateTRBDF2Solver Class Reference}
+\label{classMultiRateTRBDF2Solver}\index{MultiRateTRBDF2Solver@{MultiRateTRBDF2Solver}}
+}
+Inheritance diagram for MultiRateTRBDF2Solver::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classMultiRateTRBDF2Solver}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classMultiRateTRBDF2Solver_abba38b276958ca27b4da6dc05810198e}{
+void \hyperlink{classMultiRateTRBDF2Solver_abba38b276958ca27b4da6dc05810198e}{setFun} (\hyperlink{classIRHSFunction}{IRHSFunction} $\ast$fun)}
+\label{classMultiRateTRBDF2Solver_abba38b276958ca27b4da6dc05810198e}
+
+\begin{DoxyCompactList}\small\item\em Sets the RHS Function. \item\end{DoxyCompactList}\item 
+\hypertarget{classMultiRateTRBDF2Solver_a2975901caa9b3e8307876e420d11051a}{
+void \hyperlink{classMultiRateTRBDF2Solver_a2975901caa9b3e8307876e420d11051a}{setNewtSolv} (std::unique\_\-ptr$<$ \hyperlink{classINewtonSolver}{INewtonSolver} $>$ newtSolv)}
+\label{classMultiRateTRBDF2Solver_a2975901caa9b3e8307876e420d11051a}
+
+\begin{DoxyCompactList}\small\item\em Sets the Newton SOlver. \item\end{DoxyCompactList}\item 
+\hypertarget{classMultiRateTRBDF2Solver_a108e0f1d57fa5fcf7c0a256b73de9b46}{
+void \hyperlink{classMultiRateTRBDF2Solver_a108e0f1d57fa5fcf7c0a256b73de9b46}{setHinitial} (Real hinitial)}
+\label{classMultiRateTRBDF2Solver_a108e0f1d57fa5fcf7c0a256b73de9b46}
+
+\begin{DoxyCompactList}\small\item\em Sets the time step for the first time slab. \item\end{DoxyCompactList}\item 
+\hypertarget{classMultiRateTRBDF2Solver_a6849c58254a896d35a473e180bce8ca7}{
+void \hyperlink{classMultiRateTRBDF2Solver_a6849c58254a896d35a473e180bce8ca7}{setHz1initial} (const RealVector \&hz1initial)}
+\label{classMultiRateTRBDF2Solver_a6849c58254a896d35a473e180bce8ca7}
+
+\begin{DoxyCompactList}\small\item\em Sets the initial guess for the variable z. \item\end{DoxyCompactList}\item 
+\hypertarget{classMultiRateTRBDF2Solver_a4cbd43086b77c41081b94316b6c0c0fa}{
+void \hyperlink{classMultiRateTRBDF2Solver_a4cbd43086b77c41081b94316b6c0c0fa}{setTfinal} (Real tfinal)}
+\label{classMultiRateTRBDF2Solver_a4cbd43086b77c41081b94316b6c0c0fa}
+
+\begin{DoxyCompactList}\small\item\em Sets the final time. \item\end{DoxyCompactList}\item 
+\hypertarget{classMultiRateTRBDF2Solver_a2414fae818f613f1d22c2cbc9d3874a2}{
+void \hyperlink{classMultiRateTRBDF2Solver_a2414fae818f613f1d22c2cbc9d3874a2}{setTinitial} (Real tinitial)}
+\label{classMultiRateTRBDF2Solver_a2414fae818f613f1d22c2cbc9d3874a2}
+
+\begin{DoxyCompactList}\small\item\em Sets the initial time. \item\end{DoxyCompactList}\item 
+\hypertarget{classMultiRateTRBDF2Solver_a80c6f99043ef743e40ce3281a6e5f078}{
+void \hyperlink{classMultiRateTRBDF2Solver_a80c6f99043ef743e40ce3281a6e5f078}{setYinitial} (const RealVector \&yinitial)}
+\label{classMultiRateTRBDF2Solver_a80c6f99043ef743e40ce3281a6e5f078}
+
+\begin{DoxyCompactList}\small\item\em Sets the initial condition. \item\end{DoxyCompactList}\item 
+\hypertarget{classMultiRateTRBDF2Solver_a5f31da03700507626779ef83441b8108}{
+std::vector$<$ std::unique\_\-ptr$<$ \hyperlink{classISolverData}{ISolverData} $>$ $>$ \&\& \hyperlink{classMultiRateTRBDF2Solver_a5f31da03700507626779ef83441b8108}{getSolution} ()}
+\label{classMultiRateTRBDF2Solver_a5f31da03700507626779ef83441b8108}
+
+\begin{DoxyCompactList}\small\item\em Gets the solution vector. \item\end{DoxyCompactList}\item 
+\hypertarget{classMultiRateTRBDF2Solver_aa7a96662dd73f626b2c33f6f16f7e531}{
+void \hyperlink{classMultiRateTRBDF2Solver_aa7a96662dd73f626b2c33f6f16f7e531}{setNewtonTolAbs} (Real newtonTolAbs)}
+\label{classMultiRateTRBDF2Solver_aa7a96662dd73f626b2c33f6f16f7e531}
+
+\begin{DoxyCompactList}\small\item\em Sets the absolute Newton tolerance. \item\end{DoxyCompactList}\item 
+\hypertarget{classMultiRateTRBDF2Solver_a6c5ba21c5ede4e7915898c1ef705b422}{
+void \hyperlink{classMultiRateTRBDF2Solver_a6c5ba21c5ede4e7915898c1ef705b422}{setNewtonTolRel} (Real newtonTolRel)}
+\label{classMultiRateTRBDF2Solver_a6c5ba21c5ede4e7915898c1ef705b422}
+
+\begin{DoxyCompactList}\small\item\em Sets the relative Newton tolerance. \item\end{DoxyCompactList}\item 
+\hypertarget{classMultiRateTRBDF2Solver_a43c3ea4cdada6de697ab40d85c1ad98b}{
+void \hyperlink{classMultiRateTRBDF2Solver_a43c3ea4cdada6de697ab40d85c1ad98b}{setErrorTolAbs} (Real errorTolAbs)}
+\label{classMultiRateTRBDF2Solver_a43c3ea4cdada6de697ab40d85c1ad98b}
+
+\begin{DoxyCompactList}\small\item\em Sets the absolute Error tolerance. \item\end{DoxyCompactList}\item 
+\hypertarget{classMultiRateTRBDF2Solver_aeb42ae9c8fd687d080987d2b19b28c4a}{
+void \hyperlink{classMultiRateTRBDF2Solver_aeb42ae9c8fd687d080987d2b19b28c4a}{setErrorTolRel} (Real errorTolRel)}
+\label{classMultiRateTRBDF2Solver_aeb42ae9c8fd687d080987d2b19b28c4a}
+
+\begin{DoxyCompactList}\small\item\em Sets the relative Error tolerance. \item\end{DoxyCompactList}\item 
+void \hyperlink{classMultiRateTRBDF2Solver_af938aabdcfc8c26f802fa648812e83cc}{compute} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classMultiRateTRBDF2Solver_af938aabdcfc8c26f802fa648812e83cc}{
+\index{MultiRateTRBDF2Solver@{MultiRateTRBDF2Solver}!compute@{compute}}
+\index{compute@{compute}!MultiRateTRBDF2Solver@{MultiRateTRBDF2Solver}}
+\subsubsection[{compute}]{\setlength{\rightskip}{0pt plus 5cm}void MultiRateTRBDF2Solver::compute ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classMultiRateTRBDF2Solver_af938aabdcfc8c26f802fa648812e83cc}
+
+
+Calculate the solution with TRBDF2 Method
+
+we are in a sub-\/level we have to do the interpolation
+
+Compute Standard Stiff Problem Estimator
+
+Calculate if the time step has succeded and if we have some components that should be refine
+
+Store the numerical Solution and update values
+
+store the values that we need for the interpolation
+
+update the values that we need for the interpolation
+
+Propose next time step
+
+if we don't accept the time step we calculate a small one
+
+we accept the time step and it is not necessary to refine
+
+Propose next time step
+
+Special case: we exit from a sub-\/level that has the same t-\/final of the previous one or more than one. we have to update the initial condition (hz) and we have to eliminate the variables of the forward sub-\/levels.
+
+Propose next time step 
+
+Implements \hyperlink{classIMasterSolver}{IMasterSolver}.
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+MultiRateTRBDF2Solver/MultiRateTRBDF2Solver.h\item 
+MultiRateTRBDF2Solver/MultiRateTRBDF2Solver.cpp\end{DoxyCompactItemize}

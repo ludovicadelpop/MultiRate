@@ -1,0 +1,371 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples
+END
+MatrixBase_cwise_const.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/MatrixBase_cwise_const.cpp
+END
+class_FixedBlock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/class_FixedBlock.cpp
+END
+Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.cpp
+END
+Tutorial_simple_example_fixed_size.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_simple_example_fixed_size.cpp
+END
+Tutorial_ArrayClass_addition.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_ArrayClass_addition.cpp
+END
+class_VectorBlock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/class_VectorBlock.cpp
+END
+Tutorial_BlockOperations_vector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_BlockOperations_vector.cpp
+END
+tut_matrix_coefficient_accessors.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/tut_matrix_coefficient_accessors.cpp
+END
+tut_arithmetic_dot_cross.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/tut_arithmetic_dot_cross.cpp
+END
+Tutorial_BlockOperations_colrow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_BlockOperations_colrow.cpp
+END
+Tutorial_ArrayClass_interop_matrix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_ArrayClass_interop_matrix.cpp
+END
+Tutorial_ReductionsVisitorsBroadcasting_colwise.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_colwise.cpp
+END
+class_CwiseUnaryOp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/class_CwiseUnaryOp.cpp
+END
+function_taking_ref.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/function_taking_ref.cpp
+END
+TutorialLinAlgExSolveLDLT.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/TutorialLinAlgExSolveLDLT.cpp
+END
+Tutorial_ReductionsVisitorsBroadcasting_reductions_norm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_reductions_norm.cpp
+END
+TutorialLinAlgSVDSolve.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/TutorialLinAlgSVDSolve.cpp
+END
+TutorialLinAlgInverseDeterminant.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/TutorialLinAlgInverseDeterminant.cpp
+END
+Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.cpp
+END
+TutorialLinAlgExSolveColPivHouseholderQR.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/TutorialLinAlgExSolveColPivHouseholderQR.cpp
+END
+class_FixedVectorBlock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/class_FixedVectorBlock.cpp
+END
+Tutorial_BlockOperations_block_assignment.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_BlockOperations_block_assignment.cpp
+END
+Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn.cpp
+END
+Tutorial_simple_example_dynamic_size.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_simple_example_dynamic_size.cpp
+END
+Tutorial_ArrayClass_interop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_ArrayClass_interop.cpp
+END
+Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp
+END
+Tutorial_ArrayClass_mult.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_ArrayClass_mult.cpp
+END
+Tutorial_PartialLU_solve.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_PartialLU_solve.cpp
+END
+Tutorial_ReductionsVisitorsBroadcasting_visitors.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_visitors.cpp
+END
+tut_arithmetic_scalar_mul_div.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/tut_arithmetic_scalar_mul_div.cpp
+END
+tut_matrix_resize_fixed_size.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/tut_matrix_resize_fixed_size.cpp
+END
+QuickStart_example2_dynamic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/QuickStart_example2_dynamic.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/CMakeLists.txt
+END
+.krazy
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/.krazy
+END
+DenseBase_template_int_middleCols.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/DenseBase_template_int_middleCols.cpp
+END
+Tutorial_ReductionsVisitorsBroadcasting_reductions_bool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_reductions_bool.cpp
+END
+DenseBase_middleCols_int.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/DenseBase_middleCols_int.cpp
+END
+TutorialLinAlgRankRevealing.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/TutorialLinAlgRankRevealing.cpp
+END
+class_CwiseBinaryOp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/class_CwiseBinaryOp.cpp
+END
+QuickStart_example.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/QuickStart_example.cpp
+END
+Tutorial_ReductionsVisitorsBroadcasting_rowwise.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_rowwise.cpp
+END
+QuickStart_example2_fixed.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/QuickStart_example2_fixed.cpp
+END
+tut_arithmetic_add_sub.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/tut_arithmetic_add_sub.cpp
+END
+Tutorial_BlockOperations_print_block.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_BlockOperations_print_block.cpp
+END
+TutorialLinAlgExComputeSolveError.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/TutorialLinAlgExComputeSolveError.cpp
+END
+class_CwiseUnaryOp_ptrfun.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/class_CwiseUnaryOp_ptrfun.cpp
+END
+class_Block.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/class_Block.cpp
+END
+TutorialLinAlgSelfAdjointEigenSolver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/TutorialLinAlgSelfAdjointEigenSolver.cpp
+END
+tut_matrix_resize.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/tut_matrix_resize.cpp
+END
+Tutorial_ArrayClass_cwise_other.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_ArrayClass_cwise_other.cpp
+END
+TutorialLinAlgSetThreshold.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/TutorialLinAlgSetThreshold.cpp
+END
+TutorialLinAlgComputeTwice.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/TutorialLinAlgComputeTwice.cpp
+END
+function_taking_eigenbase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/function_taking_eigenbase.cpp
+END
+tut_arithmetic_matrix_mul.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/tut_arithmetic_matrix_mul.cpp
+END
+DenseBase_template_int_middleRows.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/DenseBase_template_int_middleRows.cpp
+END
+Tutorial_BlockOperations_corner.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_BlockOperations_corner.cpp
+END
+TemplateKeyword_simple.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/TemplateKeyword_simple.cpp
+END
+TemplateKeyword_flexible.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/TemplateKeyword_flexible.cpp
+END
+Tutorial_ArrayClass_accessors.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/Tutorial_ArrayClass_accessors.cpp
+END
+DenseBase_middleRows_int.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/DenseBase_middleRows_int.cpp
+END
+tut_arithmetic_redux_basic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/doc/examples/tut_arithmetic_redux_basic.cpp
+END

@@ -1,0 +1,4 @@
+\form#0:$ \frac{\partial u}{ \partial t} = \sigma * \frac{\partial^{2}u}{\partial x^{2} + u(1-(u^{2}))} \frac{\partial u(x0,t)}{ \partial x} = 0; \frac{\partial u(xL,t)}{ \partial x} = 0; $
+\form#1:$ F(y) = y - y_{n} - dt*(f_{RHS}(t_{n+1},y)) $
+\form#2:$ f(u) = au(x,t) $
+\form#3:$ z(x,t) = h y'(x,t) $

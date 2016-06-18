@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/LevenbergMarquardt
+END
+LevenbergMarquardt.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/LevenbergMarquardt/LevenbergMarquardt.h
+END
+LMpar.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/LevenbergMarquardt/LMpar.h
+END
+LMqrsolv.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/LevenbergMarquardt/LMqrsolv.h
+END
+CopyrightMINPACK.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/LevenbergMarquardt/CopyrightMINPACK.txt
+END
+LMcovar.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/LevenbergMarquardt/LMcovar.h
+END
+LMonestep.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/LevenbergMarquardt/LMonestep.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/LevenbergMarquardt/CMakeLists.txt
+END

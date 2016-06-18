@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/demos/mandelbrot
+END
+mandelbrot.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/demos/mandelbrot/mandelbrot.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/demos/mandelbrot/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/demos/mandelbrot/README
+END
+mandelbrot.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/demos/mandelbrot/mandelbrot.h
+END

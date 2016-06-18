@@ -1,0 +1,121 @@
+\hypertarget{classAllenCahnRHSFunction}{
+\section{AllenCahnRHSFunction Class Reference}
+\label{classAllenCahnRHSFunction}\index{AllenCahnRHSFunction@{AllenCahnRHSFunction}}
+}
+
+
+{\ttfamily \#include $<$AllenCahnRHSFunction.h$>$}Inheritance diagram for AllenCahnRHSFunction::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classAllenCahnRHSFunction}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classAllenCahnRHSFunction_adf358cca697faeabd45941ecef135e09}{
+void {\bfseries setSigma} (const Real sigma)}
+\label{classAllenCahnRHSFunction_adf358cca697faeabd45941ecef135e09}
+
+\item 
+\hypertarget{classAllenCahnRHSFunction_a644e239104dc69ab10d24911f65aa0f4}{
+void {\bfseries setNx} (const Integer nx)}
+\label{classAllenCahnRHSFunction_a644e239104dc69ab10d24911f65aa0f4}
+
+\item 
+\hypertarget{classAllenCahnRHSFunction_a74971f71276e33081609df6e2bf7e957}{
+Real {\bfseries getSigma} ()}
+\label{classAllenCahnRHSFunction_a74971f71276e33081609df6e2bf7e957}
+
+\item 
+\hypertarget{classAllenCahnRHSFunction_a67c6edb359ecaec56aa5d04aa4eac183}{
+Integer {\bfseries getNx} ()}
+\label{classAllenCahnRHSFunction_a67c6edb359ecaec56aa5d04aa4eac183}
+
+\item 
+\hypertarget{classAllenCahnRHSFunction_a23944f60ddc12bd00d5afcfac74b4862}{
+Real {\bfseries getX0} () const }
+\label{classAllenCahnRHSFunction_a23944f60ddc12bd00d5afcfac74b4862}
+
+\item 
+\hypertarget{classAllenCahnRHSFunction_a1a495b29623fc793b9021d5448fda2ea}{
+void {\bfseries setX0} (Real x0)}
+\label{classAllenCahnRHSFunction_a1a495b29623fc793b9021d5448fda2ea}
+
+\item 
+\hypertarget{classAllenCahnRHSFunction_a1b2f18b0027c7bca2dd131e7879e228e}{
+Real {\bfseries getXL} () const }
+\label{classAllenCahnRHSFunction_a1b2f18b0027c7bca2dd131e7879e228e}
+
+\item 
+\hypertarget{classAllenCahnRHSFunction_aed5c92e6d1d0add2ff9023547c29a2ed}{
+void {\bfseries setXL} (Real l)}
+\label{classAllenCahnRHSFunction_aed5c92e6d1d0add2ff9023547c29a2ed}
+
+\item 
+RealVector \hyperlink{classAllenCahnRHSFunction_a88cc6858ebc041f62edf9b3fc0505849}{evalF} (Real time, RealVector \&y)
+\begin{DoxyCompactList}\small\item\em Returns a vector that it is the RHS evaluated at a certain time and solution. \item\end{DoxyCompactList}\item 
+RealVector \hyperlink{classAllenCahnRHSFunction_a4f2df77dfae069945cc40dc2b1eb0200}{evalF} (Real time, RealVector \&y, IntegerVector \&ref)
+\begin{DoxyCompactList}\small\item\em Returns a vector that it is the RHS evaluated at a certain time and solution only for the active components. \item\end{DoxyCompactList}\item 
+RealMatrixSparse \hyperlink{classAllenCahnRHSFunction_ac203ad1a188d842e6a9a9e70762b2b30}{evaldFdY} (Real time, RealVector \&y)
+\begin{DoxyCompactList}\small\item\em Returns the Jacobian matrix at a certain time and solution. \item\end{DoxyCompactList}\item 
+RealMatrixSparse \hyperlink{classAllenCahnRHSFunction_a51d138b3083af6914800d956171dfa6a}{evaldFdY} (Real time, RealVector \&y, IntegerVector \&ref)
+\begin{DoxyCompactList}\small\item\em Returns the Jacobian matrix at a certain time and solution only for the active components. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for RHS of PDE $ \frac{\partial u}{ \partial t} = \sigma * \frac{\partial^{2}u}{\partial x^{2} + u(1-(u^{2}))} \frac{\partial u(x0,t)}{ \partial x} = 0; \frac{\partial u(xL,t)}{ \partial x} = 0; $ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classAllenCahnRHSFunction_a51d138b3083af6914800d956171dfa6a}{
+\index{AllenCahnRHSFunction@{AllenCahnRHSFunction}!evaldFdY@{evaldFdY}}
+\index{evaldFdY@{evaldFdY}!AllenCahnRHSFunction@{AllenCahnRHSFunction}}
+\subsubsection[{evaldFdY}]{\setlength{\rightskip}{0pt plus 5cm}RealMatrixSparse AllenCahnRHSFunction::evaldFdY (Real {\em time}, \/  RealVector \& {\em y}, \/  IntegerVector \& {\em ref})\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classAllenCahnRHSFunction_a51d138b3083af6914800d956171dfa6a}
+
+
+Returns the Jacobian matrix at a certain time and solution only for the active components. 
+
+this is not the analytical Jacobian! It is compute with finite differences. 
+
+Implements \hyperlink{classIRHSFunction}{IRHSFunction}.\hypertarget{classAllenCahnRHSFunction_ac203ad1a188d842e6a9a9e70762b2b30}{
+\index{AllenCahnRHSFunction@{AllenCahnRHSFunction}!evaldFdY@{evaldFdY}}
+\index{evaldFdY@{evaldFdY}!AllenCahnRHSFunction@{AllenCahnRHSFunction}}
+\subsubsection[{evaldFdY}]{\setlength{\rightskip}{0pt plus 5cm}RealMatrixSparse AllenCahnRHSFunction::evaldFdY (Real {\em time}, \/  RealVector \& {\em y})\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classAllenCahnRHSFunction_ac203ad1a188d842e6a9a9e70762b2b30}
+
+
+Returns the Jacobian matrix at a certain time and solution. 
+
+this is not the analytical Jacobian! It is compute with finite differences. 
+
+Implements \hyperlink{classIRHSFunction}{IRHSFunction}.\hypertarget{classAllenCahnRHSFunction_a4f2df77dfae069945cc40dc2b1eb0200}{
+\index{AllenCahnRHSFunction@{AllenCahnRHSFunction}!evalF@{evalF}}
+\index{evalF@{evalF}!AllenCahnRHSFunction@{AllenCahnRHSFunction}}
+\subsubsection[{evalF}]{\setlength{\rightskip}{0pt plus 5cm}RealVector AllenCahnRHSFunction::evalF (Real {\em time}, \/  RealVector \& {\em y}, \/  IntegerVector \& {\em ref})\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classAllenCahnRHSFunction_a4f2df77dfae069945cc40dc2b1eb0200}
+
+
+Returns a vector that it is the RHS evaluated at a certain time and solution only for the active components. 
+
+For the first and the last node we have to use the Neumann boundary conditions! For the other nodes we use centered finite differences. Only for the components that we have to compute the solution and are not interpolated.
+
+Implements \hyperlink{classIRHSFunction}{IRHSFunction}.\hypertarget{classAllenCahnRHSFunction_a88cc6858ebc041f62edf9b3fc0505849}{
+\index{AllenCahnRHSFunction@{AllenCahnRHSFunction}!evalF@{evalF}}
+\index{evalF@{evalF}!AllenCahnRHSFunction@{AllenCahnRHSFunction}}
+\subsubsection[{evalF}]{\setlength{\rightskip}{0pt plus 5cm}RealVector AllenCahnRHSFunction::evalF (Real {\em time}, \/  RealVector \& {\em y})\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classAllenCahnRHSFunction_a88cc6858ebc041f62edf9b3fc0505849}
+
+
+Returns a vector that it is the RHS evaluated at a certain time and solution. 
+
+I create a uniform grid with Nx nodes.
+
+For the first and the last node we have to use the Neumann boundary conditions! For the other nodes we use centered finite differences.
+
+Implements \hyperlink{classIRHSFunction}{IRHSFunction}.
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+AllenCahnRHSFunction/AllenCahnRHSFunction.h\item 
+AllenCahnRHSFunction/AllenCahnRHSFunction.cpp\end{DoxyCompactItemize}

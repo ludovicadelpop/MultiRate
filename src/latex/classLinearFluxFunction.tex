@@ -1,0 +1,47 @@
+\hypertarget{classLinearFluxFunction}{
+\section{LinearFluxFunction Class Reference}
+\label{classLinearFluxFunction}\index{LinearFluxFunction@{LinearFluxFunction}}
+}
+
+
+Linear flux for the Hyperbolic PDE.  
+
+
+{\ttfamily \#include $<$LinearFluxFunction.h$>$}Inheritance diagram for LinearFluxFunction::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classLinearFluxFunction}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classLinearFluxFunction_a7ed546c493111d905b74f21525dba6aa}{
+Real {\bfseries getA} () const }
+\label{classLinearFluxFunction_a7ed546c493111d905b74f21525dba6aa}
+
+\item 
+\hypertarget{classLinearFluxFunction_a56fac54d5cff803b220ce6e07e90d8ef}{
+void {\bfseries setA} (Real a)}
+\label{classLinearFluxFunction_a56fac54d5cff803b220ce6e07e90d8ef}
+
+\item 
+\hypertarget{classLinearFluxFunction_a31a0643b300312e983e81cba2369ddc0}{
+Real \hyperlink{classLinearFluxFunction_a31a0643b300312e983e81cba2369ddc0}{evalF} (Real time, Real y\_\-sol)}
+\label{classLinearFluxFunction_a31a0643b300312e983e81cba2369ddc0}
+
+\begin{DoxyCompactList}\small\item\em Evaluates the flux function component by component, we can't put as input a vector. \item\end{DoxyCompactList}\item 
+\hypertarget{classLinearFluxFunction_a0091e8fac858703d344ca66d108f1b39}{
+Real {\bfseries evalFderivative} (Real time, Real y\_\-sol)}
+\label{classLinearFluxFunction_a0091e8fac858703d344ca66d108f1b39}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Linear flux for the Hyperbolic PDE. $ f(u) = au(x,t) $ 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+HyperbolicEquationUpwindRHSFunction/LinearFluxFunction.h\item 
+HyperbolicEquationUpwindRHSFunction/LinearFluxFunction.cpp\end{DoxyCompactItemize}

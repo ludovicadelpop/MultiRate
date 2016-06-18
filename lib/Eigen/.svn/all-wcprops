@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen
+END
+COPYING.BSD
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/COPYING.BSD
+END
+.hgignore
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/.hgignore
+END
+eigen3.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/eigen3.pc.in
+END
+COPYING.MPL2
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/COPYING.MPL2
+END
+CTestConfig.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/CTestConfig.cmake
+END
+signature_of_eigen3_matrix_library
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/signature_of_eigen3_matrix_library
+END
+COPYING.MINPACK
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/COPYING.MINPACK
+END
+COPYING.GPL
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/COPYING.GPL
+END
+.hgtags
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/.hgtags
+END
+CTestCustom.cmake.in
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/CTestCustom.cmake.in
+END
+.hg_archival.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/.hg_archival.txt
+END
+COPYING.README
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/COPYING.README
+END
+COPYING.LGPL
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/COPYING.LGPL
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/INSTALL
+END
+.hgeol
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/.hgeol
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/CMakeLists.txt
+END

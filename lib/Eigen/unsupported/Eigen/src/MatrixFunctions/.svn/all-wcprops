@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/MatrixFunctions
+END
+MatrixSquareRoot.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/MatrixFunctions/MatrixSquareRoot.h
+END
+MatrixFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/MatrixFunctions/MatrixFunction.h
+END
+MatrixExponential.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/MatrixFunctions/MatrixExponential.h
+END
+MatrixLogarithm.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/MatrixFunctions/MatrixLogarithm.h
+END
+StemFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/MatrixFunctions/StemFunction.h
+END
+MatrixPower.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/MatrixFunctions/MatrixPower.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/MatrixFunctions/CMakeLists.txt
+END
+MatrixFunctionAtomic.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/MatrixFunctions/MatrixFunctionAtomic.h
+END

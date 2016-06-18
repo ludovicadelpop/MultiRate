@@ -1,0 +1,33 @@
+\hypertarget{classFixedJacobianNewtonSolver}{
+\section{FixedJacobianNewtonSolver Class Reference}
+\label{classFixedJacobianNewtonSolver}\index{FixedJacobianNewtonSolver@{FixedJacobianNewtonSolver}}
+}
+Inheritance diagram for FixedJacobianNewtonSolver::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classFixedJacobianNewtonSolver}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classFixedJacobianNewtonSolver_a0afd96a1a9a1622f27cbe7b3fa345d01}{compute} (\hyperlink{classINewtonFunction}{INewtonFunction} \&fun, RealMatrixSparse \&J, RealVector \&Y, const Real tol\_\-rel, const Real tol\_\-abs, Bool \&diverge\_\-Newton, const Integer MaxNewtonStep)
+\begin{DoxyCompactList}\small\item\em Function to compute the solution with the inexat Newton method for non linear system the Jacobian is fixed. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classFixedJacobianNewtonSolver_a0afd96a1a9a1622f27cbe7b3fa345d01}{
+\index{FixedJacobianNewtonSolver@{FixedJacobianNewtonSolver}!compute@{compute}}
+\index{compute@{compute}!FixedJacobianNewtonSolver@{FixedJacobianNewtonSolver}}
+\subsubsection[{compute}]{\setlength{\rightskip}{0pt plus 5cm}void FixedJacobianNewtonSolver::compute ({\bf INewtonFunction} \& {\em fun}, \/  RealMatrixSparse \& {\em J}, \/  RealVector \& {\em Y}, \/  const Real {\em tol\_\-rel}, \/  const Real {\em tol\_\-abs}, \/  Bool \& {\em diverge\_\-Newton}, \/  const Integer {\em MaxNewtonStep})\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classFixedJacobianNewtonSolver_a0afd96a1a9a1622f27cbe7b3fa345d01}
+
+
+Function to compute the solution with the inexat Newton method for non linear system the Jacobian is fixed. Returns the solution by reference 
+
+Implements \hyperlink{classINewtonSolver_aaf2a0a6fbf03d4f58ba24e47590458d0}{INewtonSolver}.
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+NewtonSolver/FixedJacobianNewtonSolver.h\item 
+NewtonSolver/FixedJacobianNewtonSolver.cpp\end{DoxyCompactItemize}

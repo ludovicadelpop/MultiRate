@@ -1,0 +1,118 @@
+\hypertarget{classHyperbolicEquationRusanovFlux}{
+\section{HyperbolicEquationRusanovFlux Class Reference}
+\label{classHyperbolicEquationRusanovFlux}\index{HyperbolicEquationRusanovFlux@{HyperbolicEquationRusanovFlux}}
+}
+Inheritance diagram for HyperbolicEquationRusanovFlux::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classHyperbolicEquationRusanovFlux}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classHyperbolicEquationRusanovFlux_a38f44780041dab581b00c92f666e48be}{
+Integer {\bfseries getNx} () const }
+\label{classHyperbolicEquationRusanovFlux_a38f44780041dab581b00c92f666e48be}
+
+\item 
+\hypertarget{classHyperbolicEquationRusanovFlux_ab6a4dae66b856582549f1c386edd6240}{
+void {\bfseries setNx} (Integer nx)}
+\label{classHyperbolicEquationRusanovFlux_ab6a4dae66b856582549f1c386edd6240}
+
+\item 
+\hypertarget{classHyperbolicEquationRusanovFlux_ad29be60cc9f1554fcbb91e1c79ba15d6}{
+Real {\bfseries getX0} () const }
+\label{classHyperbolicEquationRusanovFlux_ad29be60cc9f1554fcbb91e1c79ba15d6}
+
+\item 
+\hypertarget{classHyperbolicEquationRusanovFlux_aedfdd231d68ffb2ed5837eab6e1f715b}{
+void {\bfseries setX0} (Real x0)}
+\label{classHyperbolicEquationRusanovFlux_aedfdd231d68ffb2ed5837eab6e1f715b}
+
+\item 
+\hypertarget{classHyperbolicEquationRusanovFlux_a5205073c68f3368649e1ba391b2d6346}{
+Real {\bfseries getXL} () const }
+\label{classHyperbolicEquationRusanovFlux_a5205073c68f3368649e1ba391b2d6346}
+
+\item 
+\hypertarget{classHyperbolicEquationRusanovFlux_a812d0ca71081816f919fc8c00cfc6500}{
+void {\bfseries setXL} (Real l)}
+\label{classHyperbolicEquationRusanovFlux_a812d0ca71081816f919fc8c00cfc6500}
+
+\item 
+\hypertarget{classHyperbolicEquationRusanovFlux_a702f9f6f1e607b541f877c0883fc1ca8}{
+void {\bfseries setBcFunc} (\hyperlink{classIBCFunction}{IBCFunction} $\ast$bcFunc)}
+\label{classHyperbolicEquationRusanovFlux_a702f9f6f1e607b541f877c0883fc1ca8}
+
+\item 
+\hypertarget{classHyperbolicEquationRusanovFlux_a165bc58a62fd625d3f2cbaeb07574efd}{
+void {\bfseries setFluxFunc} (\hyperlink{classIFluxFunction}{IFluxFunction} $\ast$fl\_\-func)}
+\label{classHyperbolicEquationRusanovFlux_a165bc58a62fd625d3f2cbaeb07574efd}
+
+\item 
+RealVector \hyperlink{classHyperbolicEquationRusanovFlux_a32c91624ae05d626535a45b12776ef9b}{evalF} (Real time, RealVector \&y)
+\begin{DoxyCompactList}\small\item\em Returns a vector that it is the RHS evaluated at a certain time and solution. \item\end{DoxyCompactList}\item 
+RealVector \hyperlink{classHyperbolicEquationRusanovFlux_ad7ae556cb8b48064d77163d554d83396}{evalF} (Real time, RealVector \&y, IntegerVector \&ref)
+\begin{DoxyCompactList}\small\item\em Returns a vector that it is the RHS evaluated at a certain time and solution only for the active components. \item\end{DoxyCompactList}\item 
+RealMatrixSparse \hyperlink{classHyperbolicEquationRusanovFlux_a401392a4b37dd6ec8a15817f37936d1b}{evaldFdY} (Real time, RealVector \&y)
+\begin{DoxyCompactList}\small\item\em Returns the Jacobian matrix at a certain time and solution. \item\end{DoxyCompactList}\item 
+RealMatrixSparse \hyperlink{classHyperbolicEquationRusanovFlux_a5bdb9a2cdb9acfffb191c77db1dc10e8}{evaldFdY} (Real time, RealVector \&y, IntegerVector \&ref)
+\begin{DoxyCompactList}\small\item\em Returns the Jacobian matrix at a certain time and solution only for the active components. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classHyperbolicEquationRusanovFlux_a5bdb9a2cdb9acfffb191c77db1dc10e8}{
+\index{HyperbolicEquationRusanovFlux@{HyperbolicEquationRusanovFlux}!evaldFdY@{evaldFdY}}
+\index{evaldFdY@{evaldFdY}!HyperbolicEquationRusanovFlux@{HyperbolicEquationRusanovFlux}}
+\subsubsection[{evaldFdY}]{\setlength{\rightskip}{0pt plus 5cm}RealMatrixSparse HyperbolicEquationRusanovFlux::evaldFdY (Real {\em time}, \/  RealVector \& {\em y}, \/  IntegerVector \& {\em ref})\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classHyperbolicEquationRusanovFlux_a5bdb9a2cdb9acfffb191c77db1dc10e8}
+
+
+Returns the Jacobian matrix at a certain time and solution only for the active components. It can be the analytical one or compute with finite difference, it depends by the implementation. 
+
+this is not the exact Jacobian!
+
+Implements \hyperlink{classIRHSFunction}{IRHSFunction}.\hypertarget{classHyperbolicEquationRusanovFlux_a401392a4b37dd6ec8a15817f37936d1b}{
+\index{HyperbolicEquationRusanovFlux@{HyperbolicEquationRusanovFlux}!evaldFdY@{evaldFdY}}
+\index{evaldFdY@{evaldFdY}!HyperbolicEquationRusanovFlux@{HyperbolicEquationRusanovFlux}}
+\subsubsection[{evaldFdY}]{\setlength{\rightskip}{0pt plus 5cm}RealMatrixSparse HyperbolicEquationRusanovFlux::evaldFdY (Real {\em time}, \/  RealVector \& {\em y})\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classHyperbolicEquationRusanovFlux_a401392a4b37dd6ec8a15817f37936d1b}
+
+
+Returns the Jacobian matrix at a certain time and solution. It can be the analytical one or compute with finite difference, it depends by the implementation. 
+
+this is not the exact Jacobian!
+
+Implements \hyperlink{classIRHSFunction}{IRHSFunction}.\hypertarget{classHyperbolicEquationRusanovFlux_ad7ae556cb8b48064d77163d554d83396}{
+\index{HyperbolicEquationRusanovFlux@{HyperbolicEquationRusanovFlux}!evalF@{evalF}}
+\index{evalF@{evalF}!HyperbolicEquationRusanovFlux@{HyperbolicEquationRusanovFlux}}
+\subsubsection[{evalF}]{\setlength{\rightskip}{0pt plus 5cm}RealVector HyperbolicEquationRusanovFlux::evalF (Real {\em time}, \/  RealVector \& {\em y}, \/  IntegerVector \& {\em ref})\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classHyperbolicEquationRusanovFlux_ad7ae556cb8b48064d77163d554d83396}
+
+
+Returns a vector that it is the RHS evaluated at a certain time and solution only for the active components. 
+
+We use a finite volume method with Rusanov flux 
+
+Implements \hyperlink{classIRHSFunction}{IRHSFunction}.\hypertarget{classHyperbolicEquationRusanovFlux_a32c91624ae05d626535a45b12776ef9b}{
+\index{HyperbolicEquationRusanovFlux@{HyperbolicEquationRusanovFlux}!evalF@{evalF}}
+\index{evalF@{evalF}!HyperbolicEquationRusanovFlux@{HyperbolicEquationRusanovFlux}}
+\subsubsection[{evalF}]{\setlength{\rightskip}{0pt plus 5cm}RealVector HyperbolicEquationRusanovFlux::evalF (Real {\em time}, \/  RealVector \& {\em y})\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classHyperbolicEquationRusanovFlux_a32c91624ae05d626535a45b12776ef9b}
+
+
+Returns a vector that it is the RHS evaluated at a certain time and solution. 
+
+I use a uniform space grid
+
+For the first node we impose that the value is equal to the BC value.
+
+We use a finite volume method with Rusanov flux 
+
+Implements \hyperlink{classIRHSFunction}{IRHSFunction}.
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+HyperbolicEquationRusanovFlux/HyperbolicEquationRusanovFlux.h\item 
+HyperbolicEquationRusanovFlux/HyperbolicEquationRusanovFlux.cpp\end{DoxyCompactItemize}

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/spbench
+END
+spbenchsolver.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/spbench/spbenchsolver.h
+END
+spbenchstyle.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/spbench/spbenchstyle.h
+END
+spbench.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/spbench/spbench.dtd
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/spbench/CMakeLists.txt
+END
+sp_solver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/spbench/sp_solver.cpp
+END
+spbenchsolver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/spbench/spbenchsolver.cpp
+END
+test_sparseLU.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/spbench/test_sparseLU.cpp
+END

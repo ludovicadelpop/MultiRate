@@ -1,0 +1,104 @@
+\hypertarget{classGeochemistryRHSFunction}{
+\section{GeochemistryRHSFunction Class Reference}
+\label{classGeochemistryRHSFunction}\index{GeochemistryRHSFunction@{GeochemistryRHSFunction}}
+}
+
+
+Geochemistry function.  
+
+
+{\ttfamily \#include $<$GeochemistryRHSFunction.h$>$}Inheritance diagram for GeochemistryRHSFunction::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classGeochemistryRHSFunction}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classGeochemistryRHSFunction_ab2a3ed2ba939f826922a540bfea66170}{
+const \hyperlink{classGeochemistryParameters}{GeochemistryParameters} \& {\bfseries getParameters} () const }
+\label{classGeochemistryRHSFunction_ab2a3ed2ba939f826922a540bfea66170}
+
+\item 
+\hypertarget{classGeochemistryRHSFunction_ad13a354a864092c722abdf5a28daa5f6}{
+void {\bfseries setParameters} (const \hyperlink{classGeochemistryParameters}{GeochemistryParameters} \&parameters)}
+\label{classGeochemistryRHSFunction_ad13a354a864092c722abdf5a28daa5f6}
+
+\item 
+RealVector \hyperlink{classGeochemistryRHSFunction_a2f7125c7c0ae977aea796acc9ea63e82}{evalF} (Real time, RealVector \&y)
+\begin{DoxyCompactList}\small\item\em Returns a vector that it is the RHS evaluated at a certain time and solution. \item\end{DoxyCompactList}\item 
+RealVector \hyperlink{classGeochemistryRHSFunction_a55eef411737aff551702c1a56d9673a1}{evalF} (Real time, RealVector \&y, IntegerVector \&ref)
+\begin{DoxyCompactList}\small\item\em Returns a vector that it is the RHS evaluated at a certain time and solution only for the active components. \item\end{DoxyCompactList}\item 
+RealMatrixSparse \hyperlink{classGeochemistryRHSFunction_a851506d3afa8a261a69e88421239b5e8}{evaldFdY} (Real time, RealVector \&y)
+\begin{DoxyCompactList}\small\item\em Returns the Jacobian matrix at a certain time and solution. \item\end{DoxyCompactList}\item 
+RealMatrixSparse \hyperlink{classGeochemistryRHSFunction_a87772d1a56b1bfe204b899dc14c44ad1}{evaldFdY} (Real time, RealVector \&y, IntegerVector \&ref)
+\begin{DoxyCompactList}\small\item\em Returns the Jacobian matrix at a certain time and solution only for the active components. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Geochemistry function. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classGeochemistryRHSFunction_a87772d1a56b1bfe204b899dc14c44ad1}{
+\index{GeochemistryRHSFunction@{GeochemistryRHSFunction}!evaldFdY@{evaldFdY}}
+\index{evaldFdY@{evaldFdY}!GeochemistryRHSFunction@{GeochemistryRHSFunction}}
+\subsubsection[{evaldFdY}]{\setlength{\rightskip}{0pt plus 5cm}RealMatrixSparse GeochemistryRHSFunction::evaldFdY (Real {\em time}, \/  RealVector \& {\em y}, \/  IntegerVector \& {\em ref})\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classGeochemistryRHSFunction_a87772d1a56b1bfe204b899dc14c44ad1}
+
+
+Returns the Jacobian matrix at a certain time and solution only for the active components. It can be the analytical one or compute with finite difference, it depends by the implementation. 
+
+this is not the exact Jacobian!
+
+Implements \hyperlink{classIRHSFunction}{IRHSFunction}.\hypertarget{classGeochemistryRHSFunction_a851506d3afa8a261a69e88421239b5e8}{
+\index{GeochemistryRHSFunction@{GeochemistryRHSFunction}!evaldFdY@{evaldFdY}}
+\index{evaldFdY@{evaldFdY}!GeochemistryRHSFunction@{GeochemistryRHSFunction}}
+\subsubsection[{evaldFdY}]{\setlength{\rightskip}{0pt plus 5cm}RealMatrixSparse GeochemistryRHSFunction::evaldFdY (Real {\em time}, \/  RealVector \& {\em y})\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classGeochemistryRHSFunction_a851506d3afa8a261a69e88421239b5e8}
+
+
+Returns the Jacobian matrix at a certain time and solution. It can be the analytical one or compute with finite difference, it depends by the implementation. 
+
+this is not the exact Jacobian!
+
+Implements \hyperlink{classIRHSFunction}{IRHSFunction}.\hypertarget{classGeochemistryRHSFunction_a55eef411737aff551702c1a56d9673a1}{
+\index{GeochemistryRHSFunction@{GeochemistryRHSFunction}!evalF@{evalF}}
+\index{evalF@{evalF}!GeochemistryRHSFunction@{GeochemistryRHSFunction}}
+\subsubsection[{evalF}]{\setlength{\rightskip}{0pt plus 5cm}RealVector GeochemistryRHSFunction::evalF (Real {\em time}, \/  RealVector \& {\em y}, \/  IntegerVector \& {\em ref})\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classGeochemistryRHSFunction_a55eef411737aff551702c1a56d9673a1}
+
+
+Returns a vector that it is the RHS evaluated at a certain time and solution only for the active components. 
+
+ACTIVITY PARAMETER
+
+Reaction Thermodynamics
+
+Kinetic Reaction
+
+Reactive Chemistry Problem ///////////////////////////////////// 
+
+Implements \hyperlink{classIRHSFunction}{IRHSFunction}.\hypertarget{classGeochemistryRHSFunction_a2f7125c7c0ae977aea796acc9ea63e82}{
+\index{GeochemistryRHSFunction@{GeochemistryRHSFunction}!evalF@{evalF}}
+\index{evalF@{evalF}!GeochemistryRHSFunction@{GeochemistryRHSFunction}}
+\subsubsection[{evalF}]{\setlength{\rightskip}{0pt plus 5cm}RealVector GeochemistryRHSFunction::evalF (Real {\em time}, \/  RealVector \& {\em y})\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classGeochemistryRHSFunction_a2f7125c7c0ae977aea796acc9ea63e82}
+
+
+Returns a vector that it is the RHS evaluated at a certain time and solution. 
+
+ACTIVITY PARAMETER
+
+Reaction Thermodynamics
+
+Kinetic Reaction
+
+Reactive Chemistry Problem ///////////////////////////////////// 
+
+Implements \hyperlink{classIRHSFunction}{IRHSFunction}.
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+GeochemistryRHSFunction/GeochemistryRHSFunction.h\item 
+GeochemistryRHSFunction/GeochemistryRHSFunction.cpp\end{DoxyCompactItemize}

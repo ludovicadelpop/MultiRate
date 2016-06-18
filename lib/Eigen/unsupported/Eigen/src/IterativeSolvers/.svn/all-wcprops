@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/IterativeSolvers
+END
+GMRES.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/IterativeSolvers/GMRES.h
+END
+MINRES.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/IterativeSolvers/MINRES.h
+END
+IncompleteLU.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/IterativeSolvers/IncompleteLU.h
+END
+Scaling.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/IterativeSolvers/Scaling.h
+END
+ConstrainedConjGrad.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/IterativeSolvers/ConstrainedConjGrad.h
+END
+DGMRES.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/IterativeSolvers/DGMRES.h
+END
+IncompleteCholesky.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/IterativeSolvers/IncompleteCholesky.h
+END
+IterationController.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/IterativeSolvers/IterationController.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/IterativeSolvers/CMakeLists.txt
+END

@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench
+END
+bench_multi_compilers.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/bench_multi_compilers.sh
+END
+sparse_trisolver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/sparse_trisolver.cpp
+END
+eig33.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/eig33.cpp
+END
+bench_reverse.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/bench_reverse.cpp
+END
+bench_norm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/bench_norm.cpp
+END
+sparse_dense_product.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/sparse_dense_product.cpp
+END
+quat_slerp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/quat_slerp.cpp
+END
+benchFFT.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/benchFFT.cpp
+END
+benchmark_suite
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/benchmark_suite
+END
+BenchUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/BenchUtil.h
+END
+benchEigenSolver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/benchEigenSolver.cpp
+END
+sparse_setter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/sparse_setter.cpp
+END
+benchBlasGemm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/benchBlasGemm.cpp
+END
+benchGeometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/benchGeometry.cpp
+END
+sparse_transpose.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/sparse_transpose.cpp
+END
+check_cache_queries.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/check_cache_queries.cpp
+END
+basicbench.cxxlist
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/basicbench.cxxlist
+END
+sparse_lu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/sparse_lu.cpp
+END
+sparse_cholesky.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/sparse_cholesky.cpp
+END
+BenchSparseUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/BenchSparseUtil.h
+END
+basicbenchmark.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/basicbenchmark.h
+END
+bench_sum.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/bench_sum.cpp
+END
+vdw_new.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/vdw_new.cpp
+END
+benchmarkSlice.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/benchmarkSlice.cpp
+END
+benchmarkXcwise.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/benchmarkXcwise.cpp
+END
+benchCholesky.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/benchCholesky.cpp
+END
+benchmarkX.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/benchmarkX.cpp
+END
+bench_gemm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/bench_gemm.cpp
+END
+sparse_randomsetter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/sparse_randomsetter.cpp
+END
+spmv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/spmv.cpp
+END
+BenchTimer.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/BenchTimer.h
+END
+benchVecAdd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/benchVecAdd.cpp
+END
+bench_unrolling
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/bench_unrolling
+END
+quatmul.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/quatmul.cpp
+END
+benchmark.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/benchmark.cpp
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/README.txt
+END
+geometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/geometry.cpp
+END
+product_threshold.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/product_threshold.cpp
+END
+basicbenchmark.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/basicbenchmark.cpp
+END
+sparse_product.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/bench/sparse_product.cpp
+END

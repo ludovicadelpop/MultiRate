@@ -1,0 +1,35 @@
+\hypertarget{classINewtonSolver}{
+\section{INewtonSolver Class Reference}
+\label{classINewtonSolver}\index{INewtonSolver@{INewtonSolver}}
+}
+Inheritance diagram for INewtonSolver::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classINewtonSolver}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{classINewtonSolver_aaf2a0a6fbf03d4f58ba24e47590458d0}{compute} (\hyperlink{classINewtonFunction}{INewtonFunction} \&fun, RealMatrixSparse \&J, RealVector \&Y, const Real tol\_\-rel, const Real tol\_\-abs, Bool \&diverge\_\-Newton, const Integer MaxNewtonStep)=0
+\begin{DoxyCompactList}\small\item\em Function to compute the solution with the Newton method for non linear system. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classINewtonSolver_aaf2a0a6fbf03d4f58ba24e47590458d0}{
+\index{INewtonSolver@{INewtonSolver}!compute@{compute}}
+\index{compute@{compute}!INewtonSolver@{INewtonSolver}}
+\subsubsection[{compute}]{\setlength{\rightskip}{0pt plus 5cm}virtual void INewtonSolver::compute ({\bf INewtonFunction} \& {\em fun}, \/  RealMatrixSparse \& {\em J}, \/  RealVector \& {\em Y}, \/  const Real {\em tol\_\-rel}, \/  const Real {\em tol\_\-abs}, \/  Bool \& {\em diverge\_\-Newton}, \/  const Integer {\em MaxNewtonStep})\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}
+\label{classINewtonSolver_aaf2a0a6fbf03d4f58ba24e47590458d0}
+
+
+Function to compute the solution with the Newton method for non linear system. Returns the solution by reference 
+\begin{DoxyParams}{Parameters}
+\item[{\em INewtonfunction}]Newton function \item[{\em RealMatrixSparse}]Jacobian \item[{\em RealVector}]solution \item[{\em Real}]relative tolerance \item[{\em Real}]absolute tolerance \item[{\em Bool}]Newton diverge \item[{\em Integer}]maximum number of Newton iteration \end{DoxyParams}
+
+
+Implemented in \hyperlink{classBasicNewtonSolver_a24d27f55e338412dbd6337087a25190a}{BasicNewtonSolver}, and \hyperlink{classFixedJacobianNewtonSolver_a0afd96a1a9a1622f27cbe7b3fa345d01}{FixedJacobianNewtonSolver}.
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+INewtonSolver.h\end{DoxyCompactItemize}

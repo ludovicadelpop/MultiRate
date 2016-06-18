@@ -1,0 +1,123 @@
+\hypertarget{classSingleRateTRBDF2Solver}{
+\section{SingleRateTRBDF2Solver Class Reference}
+\label{classSingleRateTRBDF2Solver}\index{SingleRateTRBDF2Solver@{SingleRateTRBDF2Solver}}
+}
+
+
+Class to define the Singlerate TRBDF2 Solver with a fixed time step.  
+
+
+{\ttfamily \#include $<$SingleRateTRBDF2Solver.h$>$}Inheritance diagram for SingleRateTRBDF2Solver::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classSingleRateTRBDF2Solver}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classSingleRateTRBDF2Solver_aa9133a77e58a3a4027655cd6de0d5b94}{
+void \hyperlink{classSingleRateTRBDF2Solver_aa9133a77e58a3a4027655cd6de0d5b94}{setFun} (\hyperlink{classIRHSFunction}{IRHSFunction} $\ast$fun)}
+\label{classSingleRateTRBDF2Solver_aa9133a77e58a3a4027655cd6de0d5b94}
+
+\begin{DoxyCompactList}\small\item\em Sets the RHS Function. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateTRBDF2Solver_a5c1f921a270ac422900c127f320e97c9}{
+void \hyperlink{classSingleRateTRBDF2Solver_a5c1f921a270ac422900c127f320e97c9}{setNewtSolv} (std::unique\_\-ptr$<$ \hyperlink{classINewtonSolver}{INewtonSolver} $>$ newtSolv)}
+\label{classSingleRateTRBDF2Solver_a5c1f921a270ac422900c127f320e97c9}
+
+\begin{DoxyCompactList}\small\item\em Sets the Newton SOlver. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateTRBDF2Solver_a1486e389359b8fb68df92c26a73ad0f3}{
+void \hyperlink{classSingleRateTRBDF2Solver_a1486e389359b8fb68df92c26a73ad0f3}{setHinitial} (Real hinitial)}
+\label{classSingleRateTRBDF2Solver_a1486e389359b8fb68df92c26a73ad0f3}
+
+\begin{DoxyCompactList}\small\item\em Sets the time step for the first time slab. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateTRBDF2Solver_a9f33c38922a2b72dfd2d9377ccd5d22a}{
+void \hyperlink{classSingleRateTRBDF2Solver_a9f33c38922a2b72dfd2d9377ccd5d22a}{setHz1initial} (const RealVector \&hz1initial)}
+\label{classSingleRateTRBDF2Solver_a9f33c38922a2b72dfd2d9377ccd5d22a}
+
+\begin{DoxyCompactList}\small\item\em Sets the initial guess for the variable z. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateTRBDF2Solver_a71f0327229d5ea37e769bbf48a6b85d1}{
+void \hyperlink{classSingleRateTRBDF2Solver_a71f0327229d5ea37e769bbf48a6b85d1}{setTfinal} (Real tfinal)}
+\label{classSingleRateTRBDF2Solver_a71f0327229d5ea37e769bbf48a6b85d1}
+
+\begin{DoxyCompactList}\small\item\em Sets the final time. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateTRBDF2Solver_a9f0fa527544f37e8659df2c4c13153d2}{
+void \hyperlink{classSingleRateTRBDF2Solver_a9f0fa527544f37e8659df2c4c13153d2}{setTinitial} (Real tinitial)}
+\label{classSingleRateTRBDF2Solver_a9f0fa527544f37e8659df2c4c13153d2}
+
+\begin{DoxyCompactList}\small\item\em Sets the initial time. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateTRBDF2Solver_a30d1c78ed31b69d7711f3c40a602f78c}{
+void \hyperlink{classSingleRateTRBDF2Solver_a30d1c78ed31b69d7711f3c40a602f78c}{setYinitial} (const RealVector \&yinitial)}
+\label{classSingleRateTRBDF2Solver_a30d1c78ed31b69d7711f3c40a602f78c}
+
+\begin{DoxyCompactList}\small\item\em Sets the initial condition. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateTRBDF2Solver_a406cfcab074805b129bd80006c74843e}{
+std::vector$<$ std::unique\_\-ptr$<$ \hyperlink{classISolverData}{ISolverData} $>$ $>$ \&\& \hyperlink{classSingleRateTRBDF2Solver_a406cfcab074805b129bd80006c74843e}{getSolution} ()}
+\label{classSingleRateTRBDF2Solver_a406cfcab074805b129bd80006c74843e}
+
+\begin{DoxyCompactList}\small\item\em Gets the solution vector. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateTRBDF2Solver_ab221da0f138d4aebe054f4b1fbe91444}{
+void \hyperlink{classSingleRateTRBDF2Solver_ab221da0f138d4aebe054f4b1fbe91444}{setNewtonTolAbs} (Real newtonTolAbs)}
+\label{classSingleRateTRBDF2Solver_ab221da0f138d4aebe054f4b1fbe91444}
+
+\begin{DoxyCompactList}\small\item\em Sets the absolute Newton tolerance. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateTRBDF2Solver_aeb3bfed2c5c7a1b314579b2854f4f64d}{
+void \hyperlink{classSingleRateTRBDF2Solver_aeb3bfed2c5c7a1b314579b2854f4f64d}{setNewtonTolRel} (Real newtonTolRel)}
+\label{classSingleRateTRBDF2Solver_aeb3bfed2c5c7a1b314579b2854f4f64d}
+
+\begin{DoxyCompactList}\small\item\em Sets the relative Newton tolerance. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateTRBDF2Solver_ada3abba75dbb15b4bb524bb7b144f634}{
+void \hyperlink{classSingleRateTRBDF2Solver_ada3abba75dbb15b4bb524bb7b144f634}{setErrorTolAbs} (Real errorTolAbs)}
+\label{classSingleRateTRBDF2Solver_ada3abba75dbb15b4bb524bb7b144f634}
+
+\begin{DoxyCompactList}\small\item\em Sets the absolute Error tolerance. \item\end{DoxyCompactList}\item 
+\hypertarget{classSingleRateTRBDF2Solver_ac951fd8c8caf2292cf9c93a47495b44b}{
+void \hyperlink{classSingleRateTRBDF2Solver_ac951fd8c8caf2292cf9c93a47495b44b}{setErrorTolRel} (Real errorTolRel)}
+\label{classSingleRateTRBDF2Solver_ac951fd8c8caf2292cf9c93a47495b44b}
+
+\begin{DoxyCompactList}\small\item\em Sets the relative Error tolerance. \item\end{DoxyCompactList}\item 
+void \hyperlink{classSingleRateTRBDF2Solver_ab9beae6ea765fe34398a02b7b99da10f}{compute} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class to define the Singlerate TRBDF2 Solver with a fixed time step. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classSingleRateTRBDF2Solver_ab9beae6ea765fe34398a02b7b99da10f}{
+\index{SingleRateTRBDF2Solver@{SingleRateTRBDF2Solver}!compute@{compute}}
+\index{compute@{compute}!SingleRateTRBDF2Solver@{SingleRateTRBDF2Solver}}
+\subsubsection[{compute}]{\setlength{\rightskip}{0pt plus 5cm}void SingleRateTRBDF2Solver::compute ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classSingleRateTRBDF2Solver_ab9beae6ea765fe34398a02b7b99da10f}
+
+
+Parameters time step size
+
+First data output: initial conditions
+
+number of consecutive Newton divergence
+
+Calculate the Jacobian and the mixed tolerance
+
+Calculate the solution with TRBDF2 Method
+
+Store the numerical Solution
+
+Newton is OK But some components estimator $>$ Tol
+
+Control restart timestep
+
+Newton is OK But and ALL components estimator $<$ Tol
+
+Propose next timestep
+
+Take into account tfinal bound
+
+Newton divergence 
+
+Implements \hyperlink{classIMasterSolver}{IMasterSolver}.
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+SingleRateTRBDF2Solver/SingleRateTRBDF2Solver.h\item 
+SingleRateTRBDF2Solver/SingleRateTRBDF2Solver.cpp\end{DoxyCompactItemize}

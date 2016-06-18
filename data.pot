@@ -1,0 +1,42 @@
+[common_parameters]
+	rhs	= HyperbolicEquationUpwind # Geochemistry, HyperbolicEquationUpwind,
+					    # AllenCahn, HyperbolicEquationRusanov
+	Solver		= MultiRateTRBDF2Solver 	# MultiRateTRBDF2Solver, SingleRateTRBDF2Solver, 
+												# SingleRateBESolver, SingleFESolver
+	NewtonSolver	= FixedJacobianNewtonSolver # BasicNewtonSolver, FixedJacobianNewtonSolver
+	Newton_tol_abs  = 1.e-8
+	Newton_tol_rel  = 1.e-6
+	Error_tol_rel   = 1.e-4
+	Error_tol_abs   = 1.e-6
+	delta_t 		= 1.e-1
+	tInitial		= 0.0
+	tFinal 			= 1.0
+[../]
+
+[Geochemistry]
+
+[../]
+	
+[HyperbolicEquationUpwind]
+	nx 		 = 400       # nodes
+	x0 		 = -20.0		 
+	xL 		 = 20.0
+	BC_value = 0.0   	 # Boundary condition value
+	alpha	 = 1.0       # velocity hyperbolic equation
+[../]
+
+[AllenCahn]
+	nx		= 400        #nodes
+	x0		= -1.0
+	xL		= 2.0
+	sigma	= 9.e-4;
+[../]
+
+[HyperbolicEquationRusanov]
+	nx 		 = 400       # nodes
+	x0 		 = -1.0		 
+	xL 		 = 3.0
+	BC_value = 0.0   	 # Boundary condition value
+[../]
+
+

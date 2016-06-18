@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/Splines
+END
+Spline.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/Splines/Spline.h
+END
+SplineFwd.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/Splines/SplineFwd.h
+END
+SplineFitting.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/Splines/SplineFitting.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/R11/Coores/!svn/ver/2065/proto/AUTODIFF/TESTAD/Eigen/unsupported/Eigen/src/Splines/CMakeLists.txt
+END
